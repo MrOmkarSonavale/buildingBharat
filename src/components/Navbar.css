@@ -1,0 +1,48 @@
+nav {
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+
+.Navbar {
+  display: flex;
+  height: 6.4rem;
+  max-width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.Navbar img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.Navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 1.5rem;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.Navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.Navbuttons {
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.Navlink:hover {
+  background-color: var(--link-hover-color);
+}

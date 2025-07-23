@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #004644;
+  --secondary-color: #fff;
+  --orange-color: #f9a826;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base font styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5cccc;
+  color: #004644;
+  height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
