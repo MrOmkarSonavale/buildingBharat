@@ -15,8 +15,8 @@
   color: var(--orange-color);
 }
 .secondary {
-  background-color: #eeeeee;
-  color: #333;
+  background-color: var(--orange-color);
+  color: #fff;
 }
 .danger {
   background-color: #e74c3c;
@@ -29,9 +29,13 @@
   font-size: 0.8rem;
 }
 .medium {
+  font-family: "Poppins", sans-serif;
   padding: 10px 15px;
   font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
 }
+
 .large {
   padding: 14px 28px;
   font-size: 1.2rem;
