@@ -1,0 +1,44 @@
+.company-fig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+  height: 5rem;
+  border: 1.5px solid #00464478;
+  border-radius: 1.4rem;
+}
+
+.company-fig img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  justify-self: center;
+}
+
+.company-fig-4 {
+  grid-column: span 2;
+  width: 50%;
+  justify-self: center;
+}
+
+.company-fig-4 img {
+  justify-self: center;
+}
+
+.company-fig-11 {
+  grid-column: span 2;
+  grid-row: span 2;
+  width: 70%;
+  height: 90%;
+  justify-self: center;
+  border: 1.4px solid var(--orange-color);
+  border-radius: 3rem;
+  box-shadow: 2px 4px 8px rgba(249, 124, 4, 0.4);
+}
+
+.company-fig-11 img {
+  width: 100%;
+  height: 100%;
+}

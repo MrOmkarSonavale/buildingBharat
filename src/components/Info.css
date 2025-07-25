@@ -1,0 +1,56 @@
+.info-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info-stats {
+  display: flex;
+  gap: 10rem;
+  padding-top: 3rem;
+}
+
+.info-stats-main h3 {
+  font-size: 3.5rem;
+}
+
+.info-stats-main p {
+  font-size: 1.6rem;
+  color: #f4f8f8;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+.info-description {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  background-color: #126765;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid #ffffff9c;
+}
+
+.info-description .logo {
+  height: 3.5rem;
+  width: 3.5rem;
+  fill: #fff;
+}
+
+.info-card h3 {
+  padding-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.info-card p {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
