@@ -1,10 +1,24 @@
 import CustomButton from "./CustomButton";
 import './Navbar.css'; // Import the CSS for Navbar
 import logo from '../assets/images/logo.jpg';
-
+import React, { useState, useEffect } from "react";
 const Navbar = () => {
+	const [isSticky, setIsSticky] = useState(false);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const heroHeight = document.getElementById("home").offsetHeight;
+
+			setIsSticky(window.scrollY > heroHeight);
+		}
+
+		window.addEventListener("scroll", handleScroll);
+
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, []);
+
 	return (
-		<nav>
+		<nav className={`${isSticky ? 'sticky' : ''}`}>
 			<div className="Navbar">
 				<img src={logo} alt="Building Bharat logo, stylized text with blue and orange colors, on a white background"
 				/>

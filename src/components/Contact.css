@@ -1,0 +1,60 @@
+h2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 90%;
+  padding: 1.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 1rem;
+  background-color: transparent;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+  color: #fff;
+}
+
+/* input + #email,
+input + #phone {
+  width: 40%;
+  display: inline-block;
+} */
+.contact-people {
+  width: 90%;
+  display: flex;
+  gap: 3rem;
+}
+
+.contact-people input {
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff; /* Or any other color */
+  opacity: 1; /* Optional: make it fully visible */
+}
+
+form .btn {
+  width: 30%;
+  color: var(--primary-color);
+  align-self: flex-end;
+  transform: translateX(-3rem);
+}

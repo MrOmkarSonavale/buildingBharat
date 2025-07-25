@@ -1,0 +1,130 @@
+#footer-section {
+  width: 100%;
+  background-color: #edebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  width: 1400px;
+  display: flex;
+  padding: 0 2rem;
+  padding-bottom: 7rem;
+  justify-content: space-between;
+}
+
+.footer-contant {
+  display: flex;
+  width: 60%;
+  gap: 9rem;
+  padding-top: 6rem;
+  align-self: flex-start;
+  justify-content: end;
+  margin-right: 6rem;
+}
+
+.footer-description figure img {
+  height: 20rem;
+
+  width: 20rem;
+}
+
+.footer-building-bharat h2,
+.footer-program h2,
+.footer-follow-us h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.footer-building-bharat ul,
+.footer-program ul,
+.footer-follow-us ul {
+  list-style: none;
+}
+
+.footer-des-contant {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-des-contant p span {
+  display: block;
+  font-weight: 500;
+}
+
+.footer-des-contant p {
+  line-height: 2;
+}
+
+.phone {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer-building-bharat li a,
+.footer-program li a,
+.footer-follow-us li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #2a2b2b;
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+.footer-building-bharat li a:link,
+.footer-building-bharat li a:visited,
+.footer-building-bharat li a:active {
+  text-decoration: none;
+  color: #2a2b2b;
+}
+.footer-program
+  li
+  a:link
+  .footer-program
+  li
+  a:visited
+  .footer-program
+  li
+  a:active {
+  text-decoration: none;
+  color: #2a2b2b;
+}
+.footer-follow-us
+  li
+  a
+  :link
+  .footer-follow-us
+  li
+  a
+  :visited
+  .footer-follow-us
+  li
+  a
+  :active {
+  text-decoration: none;
+  color: #2a2b2b;
+}
+
+.footer-follow-us ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.footer-follow-us ul li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-follow-us ul li span ion-icon {
+  font-size: 2rem;
+}

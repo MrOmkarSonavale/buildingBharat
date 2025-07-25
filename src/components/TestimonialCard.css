@@ -5,8 +5,10 @@
   border-radius: 2rem;
   display: flex;
   align-items: center;
-  /* animation: slide 7s ease-out infinite; */
+  animation: slide 7s ease infinite;
   transform: translateX(5%);
+  backface-visibility: hidden;
+  animation-fill-mode: both;
 }
 .testimonial-description {
   flex-basis: 60%;

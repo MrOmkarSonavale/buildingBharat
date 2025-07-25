@@ -1,6 +1,15 @@
 nav {
   width: 100%;
   background-color: var(--secondary-color);
+  transition: all 0.5s ease-in-out;
+}
+
+nav.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .Navbar {
@@ -29,9 +38,9 @@ li a {
   padding: 1.5rem;
   font-weight: 400;
   font-style: normal;
-
   font-size: 1.6rem;
   display: inline-block;
+  transition: all 0.5s ease;
 }
 
 .Navlinks {
@@ -46,4 +55,15 @@ li a {
 
 .Navlink:hover {
   background-color: var(--link-hover-color);
+}
+
+li a:link,
+li a:active,
+li a:visited {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+li a:hover {
+  color: var(--orange-color);
 }
