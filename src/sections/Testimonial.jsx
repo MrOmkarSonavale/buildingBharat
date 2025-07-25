@@ -1,8 +1,8 @@
 import TestimonialCard from "../components/TestimonialCard";
 import "./Testimonial.css";
-import imageOne from "../src/assets/images/image-1.png"
-import imageTwo from "../src/assets/images/image-2.png"
-import imageThree from "../src/assets/images/image-3.png"
+import imageOne from "../assets/images/image-1.png"
+import imageTwo from "../assets/images/image-2.png"
+import imageThree from "../assets/images/image-3.png"
 
 const testimonials = [
 	{
