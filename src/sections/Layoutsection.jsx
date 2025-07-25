@@ -3,6 +3,10 @@ import Card from "../components/Card";
 import { AcademicCapIcon, ArrowsRightLeftIcon, UsersIcon, HeartIcon, CameraIcon, BriefcaseIcon, TrophyIcon, ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline';
 import "./Layoutsection.css";
 import Flow from "../components/Flow";
+import liveInteraction from "../assets/images/flow/liveinteraction.png";
+import guarantedjob from "../assets/images/flow/guarantedjob.png";
+import boostresume from "../assets/images/flow/boostresume.png"
+import mockinterview from "../assets/images/flow/mockinterview.png"
 
 const cardArray = [
 	{
@@ -39,7 +43,7 @@ const flowArray = [
 			"Q&A sessions with former parliamentarians",
 			"Interactive policy workshops"
 		],
-		image: "../src/assets/images/flow/liveinteraction.png",
+		image: liveInteraction,
 		logomain: CameraIcon
 
 	},
@@ -51,7 +55,7 @@ const flowArray = [
 			"Direct placement assistance",
 			"Networking events with industry leaders"
 		],
-		image: "../src/assets/images/flow/guarantedjob.png",
+		image: guarantedjob,
 		logomain: BriefcaseIcon
 	},
 	{
@@ -62,7 +66,7 @@ const flowArray = [
 			"Monthly governance hackathons",
 			" Published research opportunities"
 		],
-		image: "../src/assets/images/flow/boostresume.png",
+		image: boostresume,
 		logomain: TrophyIcon
 	},
 	{
@@ -73,7 +77,7 @@ const flowArray = [
 			"Weekly mock interview sessions",
 			"Personalized feedback and improvement plans"
 		],
-		image: "../src/assets/images/flow/mockinterview.png",
+		image: mockinterview,
 		logomain: ChatBubbleBottomCenterIcon
 	}
 ]
