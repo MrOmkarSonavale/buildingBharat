@@ -1,5 +1,6 @@
 
 import "./Footersection.css";
+import footerLogo from "../assets/images/logo.png";
 
 const Footersection = () => {
 	return (
@@ -7,7 +8,9 @@ const Footersection = () => {
 			<div className="footer">
 				<div className="footer-description">
 					<figure>
-						<img src="../src/assets/images/logo.png" />
+						<img src={footerLogo}
+							alt="logo footer"
+						/>
 					</figure>
 					<div className="footer-des-contant">
 						<p>
