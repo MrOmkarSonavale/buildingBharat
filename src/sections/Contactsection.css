@@ -4,7 +4,6 @@ section + #contact {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5rem;
 }
 
 .contact-main {
@@ -47,4 +46,66 @@ section + #contact {
   align-items: center;
   padding: 3rem;
   padding-top: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .contact-main {
+    width: 100%;
+    padding: 3rem 4rem;
+    column-gap: 5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-fig {
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-fig h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .contact-fig figure img {
+    height: 25rem;
+  }
+
+  .contact-detail {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-main {
+    padding: 2rem;
+  }
+
+  .contact-fig h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-fig figure img {
+    height: 20rem;
+  }
+
+  .contact-detail {
+    padding: 1.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-fig h2 {
+    font-size: 2rem;
+  }
+
+  .contact-fig figure img {
+    height: 15rem;
+  }
+
+  .contact-detail {
+    padding: 1rem 0;
+  }
 }

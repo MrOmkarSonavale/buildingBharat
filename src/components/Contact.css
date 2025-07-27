@@ -29,11 +29,6 @@ textarea:focus {
   color: #fff;
 }
 
-/* input + #email,
-input + #phone {
-  width: 40%;
-  display: inline-block;
-} */
 .contact-people {
   width: 90%;
   display: flex;
@@ -58,3 +53,50 @@ form .btn {
   align-self: flex-end;
   transform: translateX(-3rem);
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-people {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  form input,
+  form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  form .btn {
+    width: 100%;
+    transform: translateX(0);
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  form {
+    gap: 2rem;
+  }
+
+  .contact-people {
+    gap: 1.5rem;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+}
+
+/* input + #email,
+input + #phone {
+  width: 40%;
+  display: inline-block;
+} */

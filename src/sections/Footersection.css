@@ -7,7 +7,7 @@
 }
 
 .footer {
-  width: 1400px;
+  width: 100%;
   display: flex;
   padding: 0 2rem;
   padding-bottom: 7rem;
@@ -127,4 +127,102 @@
 
 .footer-follow-us ul li span ion-icon {
   font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+    gap: 3rem;
+  }
+
+  .footer-contant {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem 0;
+    gap: 4rem;
+  }
+
+  .footer-des-contant {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-description figure img {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-contant {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-description {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .footer-building-bharat,
+  .footer-program,
+  .footer-follow-us {
+    width: 30%;
+  }
+
+  .footer-building-bharat h2,
+  .footer-program h2,
+  .footer-follow-us h2 {
+    font-size: 1.6rem;
+  }
+
+  .footer-building-bharat li a,
+  .footer-program li a,
+  .footer-follow-us li a {
+    font-size: 1.3rem;
+  }
+
+  .footer-des-contant {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-description figure img {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .footer-building-bharat h2,
+  .footer-program h2,
+  .footer-follow-us h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-building-bharat li a,
+  .footer-program li a,
+  .footer-follow-us li a {
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+  }
+
+  .footer-des-contant {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  .phone {
+    justify-content: center;
+  }
 }

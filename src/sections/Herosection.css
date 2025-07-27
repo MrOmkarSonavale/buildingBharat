@@ -9,7 +9,7 @@ section {
   display: flex;
   gap: 2rem;
   align-items: center;
-  padding: 8rem 2rem;
+  padding: 8rem 3rem;
 }
 
 .hero-description {
@@ -66,4 +66,66 @@ section {
   margin-top: -2rem;
   color: var(--orange-color);
   font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+    padding: 6rem 2rem;
+  }
+
+  .hero-description {
+    width: 100%;
+  }
+
+  .hero-figure {
+    width: 100%;
+  }
+
+  .hero-buttons div {
+    margin-right: 1rem;
+  }
+
+  .center-name span {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-description h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-description p {
+    font-size: 1.6rem;
+  }
+
+  .hero-buttons div {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .center-name span {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-description h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-description p {
+    font-size: 1.4rem;
+  }
+
+  .center-name span {
+    font-size: 3.5rem;
+  }
+
+  .hero-section {
+    padding: 4rem 1rem;
+  }
 }

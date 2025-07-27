@@ -14,7 +14,7 @@
 }
 
 .testimonial-card {
-  width: 1300px;
+  width: 100%;
   margin: 3rem 0;
   position: relative;
   overflow: hidden;
@@ -22,6 +22,45 @@
 
 .testimonial {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
+  width: 100%;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .testimonial {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .testimonial-card {
+    overflow-x: auto;
+  }
+
+  .testimonial-content {
+    scroll-snap-align: start;
+  }
+
+  .testimonial-section h2 {
+    font-size: 2.5rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .testimonial {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-section h2 {
+    font-size: 2rem;
+  }
 }

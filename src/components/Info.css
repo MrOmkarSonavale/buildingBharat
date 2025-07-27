@@ -54,3 +54,94 @@
   padding: 1rem 0;
   font-size: 1.2rem;
 }
+
+@media (max-width: 1024px) {
+  .info-stats {
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+  }
+
+  .info-description {
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .info-card {
+    flex-basis: 40%;
+  }
+
+  .info-stats-main h3 {
+    font-size: 3rem;
+  }
+
+  .info-stats-main p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .info-description {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .info-card {
+    width: 80%;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .info-stats-main h3 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .info-stats-main p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .info-card h3 {
+    font-size: 1.6rem;
+  }
+
+  .info-card p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-card {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .info-stats-main h3 {
+    font-size: 2.4rem;
+  }
+
+  .info-stats-main p {
+    font-size: 1.2rem;
+  }
+
+  .info-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .info-card p {
+    font-size: 1rem;
+  }
+
+  .info-description .logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

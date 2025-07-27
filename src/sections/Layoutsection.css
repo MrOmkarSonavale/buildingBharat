@@ -68,3 +68,56 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .layout-cards {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .layout-section p,
+  .layout-process p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #layout {
+    padding: 2rem;
+  }
+
+  .layout-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .layout-section h2,
+  .layout-process h2 {
+    font-size: 2.3rem;
+    padding: 0 1rem;
+  }
+
+  .layout-section p,
+  .layout-process p {
+    font-size: 1.4rem;
+  }
+
+  .layout-process-flow {
+    padding: 4rem 0 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .layout-section h2,
+  .layout-process h2 {
+    font-size: 2rem;
+  }
+
+  .layout-section p,
+  .layout-process p {
+    font-size: 1.3rem;
+  }
+}
