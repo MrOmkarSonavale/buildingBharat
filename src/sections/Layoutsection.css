@@ -89,9 +89,10 @@
   }
 
   .layout-cards {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2rem;
+    justify-content: center;
   }
 
   .layout-section h2,
@@ -111,6 +112,10 @@
 }
 
 @media (max-width: 480px) {
+  .layout-cards {
+    display: flex;
+    flex-direction: column;
+  }
   .layout-section h2,
   .layout-process h2 {
     font-size: 2rem;
