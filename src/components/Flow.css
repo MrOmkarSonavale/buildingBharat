@@ -19,8 +19,8 @@
 }
 
 .flow-fig img {
-  height: 25rem;
-  width: 35rem;
+  height: 85%;
+  width: 100%;
   border-radius: 2rem;
   object-fit: fill;
 }
@@ -78,14 +78,17 @@
 }
 
 @media (max-width: 1024px) {
+  .flow-description p {
+    text-align: start;
+  }
   .flow {
     max-width: 90%;
     gap: 3rem;
   }
 
   .flow-fig img {
-    height: 20rem;
-    width: 30rem;
+    height: 85%;
+    width: 90%;
   }
 }
 
@@ -94,6 +97,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 3rem;
   }
 
   .flow-description,
@@ -101,9 +105,14 @@
     width: 100%;
   }
 
+  .flow-description {
+    width: 80%;
+    order: 1;
+  }
+
   .flow-fig img {
-    height: auto;
-    width: 90%;
+    height: 70%;
+    width: 80%;
   }
 
   .flow-description h3 {
@@ -112,8 +121,9 @@
   }
 
   .flow-description p {
+    text-align: center;
     font-size: 1.3rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
 
   .flow-description ul li {

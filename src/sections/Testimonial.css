@@ -28,6 +28,10 @@
 }
 
 @media (max-width: 1024px) {
+  .testimonial-card {
+    height: 50vh;
+  }
+
   .testimonial {
     width: 100%;
     flex-wrap: nowrap;
@@ -41,6 +45,7 @@
 
   .testimonial-content {
     scroll-snap-align: start;
+    height: inherit;
   }
 
   .testimonial-section h2 {

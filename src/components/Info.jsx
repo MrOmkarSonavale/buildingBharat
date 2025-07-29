@@ -1,6 +1,6 @@
 import "./Info.css";
 import { LinkIcon, UserGroupIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
-
+import React from "react";
 const infoMain = [
 	{
 		heading: "2500+",
@@ -40,7 +40,7 @@ const infoMessage = [
 	}
 ]
 
-function Info() {
+const Info = React.memo(function Info() {
 
 
 
@@ -78,7 +78,7 @@ function Info() {
 
 		</div>
 	)
-};
+});
 
 
 export default Info;

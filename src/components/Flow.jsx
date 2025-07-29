@@ -1,9 +1,9 @@
 
 import "./Flow.css"
 import { CheckIcon } from '@heroicons/react/24/outline';
+import React from "react";
 
-
-const Flow = ({ flowArray, index }) => {
+const Flow = React.memo(function Flow({ flowArray, index }) {
 
 	const Icon = flowArray.logomain;
 	return (
@@ -43,7 +43,7 @@ const Flow = ({ flowArray, index }) => {
 						</figure>
 					</> :
 					<>
-						<figure className="flow-fig" style={{ justifyContent: "start" }}>
+						<figure className="flow-fig">
 							<img src={flowArray.image} alt={flowArray.heading} />
 						</figure>
 						<div className="flow-description">
@@ -80,6 +80,6 @@ const Flow = ({ flowArray, index }) => {
 
 
 
-};
+});
 
 export default Flow;

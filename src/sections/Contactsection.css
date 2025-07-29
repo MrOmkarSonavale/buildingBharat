@@ -4,6 +4,7 @@ section + #contact {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 6rem;
 }
 
 .contact-main {
@@ -36,7 +37,8 @@ section + #contact {
 }
 
 .contact-fig figure img {
-  height: 30rem;
+  width: 100%;
+  height: auto;
 }
 
 .contact-detail {
@@ -48,6 +50,11 @@ section + #contact {
   padding-top: 1rem;
 }
 
+@media (max-width: 1400px) {
+  section + #contact {
+    padding-bottom: 0;
+  }
+}
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .contact-main {
@@ -69,7 +76,9 @@ section + #contact {
   }
 
   .contact-fig figure img {
-    height: 25rem;
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
   }
 
   .contact-detail {
@@ -92,6 +101,7 @@ section + #contact {
   }
 
   .contact-detail {
+    width: 60%;
     padding: 1.5rem 0;
   }
 }

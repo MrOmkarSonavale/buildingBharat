@@ -1,5 +1,5 @@
 import "./Company.css"
-
+import React from "react";
 import logoOne from "../assets/images/company/logo-1.png";
 import logoTwo from "../assets/images/company/logo-2.png";
 import logoThree from "../assets/images/company/logo-3.png";
@@ -109,7 +109,7 @@ const logo = [
 ]
 
 // ...existing code...
-function Company() {
+const Company = React.memo(function Company() {
 
 	return (
 		<>
@@ -126,6 +126,6 @@ function Company() {
 			}
 		</>
 	)
-};
+});
 
 export default Company;

@@ -78,6 +78,7 @@ section {
 
   .hero-description {
     width: 100%;
+    order: 1;
   }
 
   .hero-figure {
@@ -102,9 +103,10 @@ section {
     font-size: 1.6rem;
   }
 
-  .hero-buttons div {
-    display: block;
-    margin: 1rem auto;
+  .hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .center-name span {
@@ -113,12 +115,20 @@ section {
 }
 
 @media (max-width: 480px) {
+  .hero-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .hero-description h1 {
     font-size: 2.8rem;
   }
 
   .hero-description p {
+    width: 60%;
     font-size: 1.4rem;
+    padding-bottom: 2rem;
   }
 
   .center-name span {
@@ -127,5 +137,20 @@ section {
 
   .hero-section {
     padding: 4rem 1rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+
+  .hero-buttons div {
+    width: 80%;
+  }
+
+  .hero-buttons div button {
+    margin-top: 0;
   }
 }

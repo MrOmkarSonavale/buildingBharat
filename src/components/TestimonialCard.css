@@ -6,7 +6,7 @@
   border-radius: 2rem;
   display: flex;
   align-items: center;
-  animation: slide 7s ease infinite;
+  /* animation: slide 7s ease infinite; */
   transform: translateX(5%);
   backface-visibility: hidden;
   animation-fill-mode: both;
@@ -87,28 +87,33 @@
 
 @media (max-width: 1200px) {
   .testimonial-image img {
-    width: 80%;
+    height: 80%;
+    width: 90%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1064px) {
   .testimonial-content {
-    flex-direction: column-reverse;
+    height: 100%;
+    flex-direction: row;
     padding: 2rem;
-    text-align: center;
+    text-align: start;
   }
 
   .testimonial-description {
     flex-basis: auto;
-    width: 100%;
+    width: 60%;
   }
 
   .testimonial-image {
-    flex-basis: auto;
-    width: 50%;
-    height: 40vh;
-    align-items: stretch;
+    width: 40%;
+
     margin-bottom: 2rem;
     align-items: center;
+  }
+
+  .testimonial-image img {
+    height: 70%;
+    width: 85%;
   }
 
   .testimonial-description p {

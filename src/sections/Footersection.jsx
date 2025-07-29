@@ -13,10 +13,10 @@ const Footersection = () => {
 						/>
 					</figure>
 					<div className="footer-des-contant">
-						<p>
+						<div>
 							<span>
 								India’s most trusted policy & political education platform
-							</span>
+							</span><br></br>
 							Plot No XX, Building Bharat Campus,<br></br>
 							New Delhi, India – 1100XX <br></br>
 							<div className="phone">
@@ -28,7 +28,7 @@ const Footersection = () => {
 
 							</div>
 
-						</p>
+						</div>
 					</div>
 				</div>
 				<div className="footer-contant">
@@ -112,32 +112,36 @@ const Footersection = () => {
 						<h2>Follow us</h2>
 						<ul>
 							<li>
-								<span>
-									<ion-icon name="logo-instagram"></ion-icon>
+								<span className="footer-follow-us-icon">
+									<ion-icon name="logo-instagram" className="footer-icon"></ion-icon>
 								</span>
 								<a href="#">Instagram</a>
 							</li>
 							<li>
-								<span>
-									<ion-icon name="logo-linkedin"></ion-icon>
+								<span className="footer-follow-us-icon">
+									<ion-icon name="logo-linkedin"
+										className="footer-icon"></ion-icon>
 								</span>
 								<a href="#">LinkedIn</a>
 							</li>
 							<li>
-								<span>
-									<ion-icon name="logo-facebook"></ion-icon>
+								<span className="footer-follow-us-icon">
+									<ion-icon name="logo-facebook"
+										className="footer-icon"></ion-icon>
 								</span>
 								<a href="#">Facebook</a>
 							</li>
 							<li>
-								<span>
-									<ion-icon name="logo-youtube"></ion-icon>
+								<span className="footer-follow-us-icon">
+									<ion-icon name="logo-youtube"
+										className="footer-icon"></ion-icon>
 								</span>
 								<a href="#">YouTube</a>
 							</li>
 							<li>
-								<span>
-									<ion-icon name="logo-discord"></ion-icon>
+								<span className="footer-follow-us-icon">
+									<ion-icon name="logo-discord"
+										className="footer-icon"></ion-icon>
 								</span>
 								<a href="#">Discord</a>
 							</li>

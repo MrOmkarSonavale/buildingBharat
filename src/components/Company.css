@@ -44,6 +44,10 @@
 }
 
 @media (max-width: 1200) {
+  .company-fig-11 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
 }
 
 @media (max-width: 768px) {

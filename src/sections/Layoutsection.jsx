@@ -3,10 +3,10 @@ import Card from "../components/Card";
 import { AcademicCapIcon, ArrowsRightLeftIcon, UsersIcon, HeartIcon, CameraIcon, BriefcaseIcon, TrophyIcon, ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline';
 import "./Layoutsection.css";
 import Flow from "../components/Flow";
-import liveInteraction from "../assets/images/flow/liveinteraction.png";
-import guarantedjob from "../assets/images/flow/guarantedjob.png";
-import boostresume from "../assets/images/flow/boostresume.png"
-import mockinterview from "../assets/images/flow/mockinterview.png"
+import liveInteraction from "../assets/images/flow/liveinteraction.jpg";
+import guarantedjob from "../assets/images/flow/guarantedjob.jpg";
+import boostresume from "../assets/images/flow/boostresume.jpg";
+import mockinterview from "../assets/images/flow/mockinterview.jpg";
 
 const cardArray = [
 	{

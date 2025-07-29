@@ -1,6 +1,7 @@
+import React from "react";
 import "./Card.css"
 
-const Card = ({ card }) => {
+const Card = React.memo(function Card({ card }) {
 	const Icon = card.logo;
 	return (
 		<div className="card" key={card.index}>
@@ -14,6 +15,6 @@ const Card = ({ card }) => {
 			<p>{card.description}</p>
 		</div>
 	)
-};
+});
 
 export default Card;

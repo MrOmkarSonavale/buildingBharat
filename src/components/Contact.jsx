@@ -1,6 +1,7 @@
+import React from "react";
 import "./Contact.css";
 
-const Contact = () => {
+const Contact = React.memo(function Contact() {
 	return (
 		<>
 			<h2>Contact us</h2>
@@ -29,5 +30,6 @@ const Contact = () => {
 			</form>
 		</>
 	)
-};
+});
+
 export default Contact;

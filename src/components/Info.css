@@ -56,6 +56,9 @@
 }
 
 @media (max-width: 1024px) {
+  .Info p {
+    text-align: center;
+  }
   .info-stats {
     flex-wrap: wrap;
     gap: 5rem;
@@ -76,15 +79,16 @@
   }
 
   .info-stats-main p {
+    text-align: center;
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 768px) {
   .info-stats {
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    gap: 2rem;
   }
 
   .info-description {
@@ -94,7 +98,7 @@
   }
 
   .info-card {
-    width: 80%;
+    width: 60%;
     text-align: center;
     padding: 2rem;
   }
@@ -120,7 +124,7 @@
 
 @media (max-width: 480px) {
   .info-card {
-    width: 100%;
+    width: 80%;
     padding: 1.5rem;
   }
 
