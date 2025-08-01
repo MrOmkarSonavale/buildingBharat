@@ -80,9 +80,20 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .company-fig {
+    height: 12vh;
+  }
+
+  .company-fig-11 {
+    align-self: center;
+    height: 15vh;
+  }
+}
+
 @media (max-width: 768px) {
   .company-fig {
-    height: 15vh;
+    height: 10vh;
     border-radius: 1rem;
   }
 

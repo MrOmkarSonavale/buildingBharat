@@ -6,7 +6,7 @@
   border-radius: 2rem;
   display: flex;
   align-items: center;
-  animation: slide 7s ease infinite;
+  /* animation: slide 7s ease infinite; */
   transform: translateX(5%);
   backface-visibility: hidden;
   animation-fill-mode: both;
@@ -20,7 +20,7 @@
   flex-basis: 40%;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 40vh;
 }
 
 .testimonial-image img {
@@ -93,7 +93,7 @@
 }
 @media (max-width: 1064px) {
   .testimonial-content {
-    height: 65vh !important;
+    height: 40vh !important;
     flex-direction: row;
     padding: 2rem;
     text-align: start;
@@ -156,7 +156,7 @@
     padding-top: 2rem;
   }
   .testimonial-image img {
-    height: 40vh;
+    height: 30vh;
     width: 70%;
     object-fit: conver;
     transform: translateY(10px);
